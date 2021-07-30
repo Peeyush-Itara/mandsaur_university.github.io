@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Mandsaur University | Computer Science And Engineering</title>
+<!-- favicon -->
+     <link rel=icon href=assets/img/favicon.png sizes="20x20" type="image/png">
+    <!-- animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <!-- nice select -->
+    <link rel="stylesheet" href="assets/css/nice-select.css"> 
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- flaticon -->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- hamburgers -->
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <!-- hamburgers -->
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <!-- twentytwenty -->
+    <link rel="stylesheet" href="assets/css/twentytwenty.css">
+    <!-- Date Picker -->
+    <link href="assets/css/datepicker.min.css" rel="stylesheet" type="text/css">
+    <!-- Time Picker -->
+    <link rel="stylesheet" href="assets/css/wickedpicker.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive Stylesheet -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--Codingeek -->
+    <link rel="stylesheet" href="../../../codingeek.net/codingeek-js/codingeek.css">  
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- preloader area start 
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+     preloader area end -->
+    <!-- search Popup -->
+    <div class="body-overlay" id="body-overlay"></div>
+    <div class="search-popup" id="search-popup">
+        <form action="http://mandsauruniversity.edu.in" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- //. search Popup -->
+          <div class="info-popup">
+        <div class="info-popup-content">
+            <button type="button" class="info-popup-content_close">X</button>
+            <div class="row no-gutters">
+                <div class="col-xl-7 col-12 col-sm-6">
+                    <div class="info-popup-content__img info-popup-content__img--one"></div>
+                </div>
+                <div class="col-xl-5 col-12 col-sm-6">
+                    <div class="info-popup-content__text">
+                        <div class="info-popup-content__text-header">
+                            <h3 class="info-popup-content__title">Opening Hours</h3>
+                        </div>
+                        <div class="info-popup-content__text-body">
+                            <span class="info-popup-content__text-is">moday - sunday</span>
+                            <span class="info-popup-content__text-is">8.00 am - 9.00 pm</span>
+                        </div>
+                        <div class="info-popup-content__text-footer">
+                            <span class="info-popup-content__text-is">+880 046 292 02</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="info-popup">
+        
+    </div><!--info-popup-->
+    <div class="location-popup">
+        <div class="location-popup-content">
+
+    
+            <button type="button" class="message-popup-content_close">X</button>
+            <div class="row no-gutters">
+                <div class="col-lg-7 col-12 col-sm-6">
+                    <div class="mapouter1">
+                        <div class="gmap_canvas1">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.7534322868974!2d75.02826771450826!3d24.074985982216933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39642bf967e95a8f%3A0x164735124632cdc9!2sMandsaur%20university!5e0!3m2!1sen!2sin!4v1607168124256!5m2!1sen!2sin" width="700" height="410" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 col-sm-6">
+                    <div class="location-popup-content__text">
+                        <div class="location-popup-content__text-header">
+                            <h3 class="location-popup-content__title">Address</h3>
+                        </div>
+                        <div class="location-popup-content__text-body">
+                            <span class="location-popup-content__text-is">
+                               Mandsaur University, SH-31, <br>
+                               Mhow Neemuch Bye-Pass Road,<br>
+                                Mandsaur(M.P.) 458001 , India
+                            </span>
+                        </div>
+                        <div class="btn-wrapper desktop-center">
+                            <a href="https://www.google.com/maps/place/Mandsaur+university/@24.074986,75.0282677,17z/data=!3m1!4b1!4m5!3m4!1s0x39642bf967e95a8f:0x164735124632cdc9!8m2!3d24.0749811!4d75.0304564" class="btn btn-element btn-normal-size btn-main-color btn-rounded">Open in maps</a>
+                        </div>
+                    </div>
+                </div>
+          
+            </div>
+        </div>
+    </div><!--location-popup-->
+    <!-- navbar start -->
+    <div class="zarxio-navbar">
+        <nav class="navbar navbar-area navbar-expand-lg nav-style-01">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#billatrail_main_menu" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                        <span class="bar3"></span>
+                    </button>
+                </div>
+                <div class="logo">
+                    <a href="index.html"> <img src="assets/img/logo1.png" alt="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="billatrail_main_menu" style="background-color: white; opacity: 0.9; border-radius: 25px;">
+                    <ul class="navbar-nav menu-open" style="color: #F59C32">
+                        <li class="current-menu-item" >
+                            <a href="index.html" style="color: #F59C32">Home</a>
+                        </li>
+
+                        <li><a href="about.html" style="color: black">About Department</a></li>
+                        <li>
+                            <a href="study.html" style="color: black">Study Material</a>
+                        </li>
+                        <li>
+                            <a href="photog.html" style="color: black">Photo Gallary</a>
+                        </li>
+                        <li>
+                            <a href="placement.html" style="color:black">Placement</a>
+                        </li>
+                        <li><a href="contact.html" style="color: black">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right-part">
+                    <ul>
+                        <li class="search" id="search">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </li>
+                        <li>
+                            <div class="hamberger-area d-none d-lg-block">
+                                <div class="menu-toggle hamburger hamburger--squeeze is-active">
+                                    <div class="hamburger-box">
+                                        <div class="hamburger-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+<!-- banner start -->
+    <div class="banner-area banner-style-one" style="background-image:url(assets/img/images.jpg);">
+        
+        <div class="border1"></div>
+        <div class="border2"></div>
+        <div class="border3"></div>
+        <div class="border4"></div>
+
+        <div class="banner-slider banner-slide1">
+            <div class="banner-bg-style-one">
+                <div class="container">
+                    <div class="row h-100vh">
+                        <div class="col-lg-6">
+                            <div class="banner-inner-style-one">
+                                <p data-animation-in="fadeInLeft">FUEL YOUR</p>
+                                <h1 class="title1" data-animation-in="fadeInDown"> <span style="color: #F59C32;">BODY</span> FITNESS</h1>
+                                <div class="btn-wrapper" data-animation-in="fadeInUp">
+                                    <a href="#" class="btn btn-slider"  style="background-color: #F59C32">Be one of us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-bg-style-one" >
+                <div class="container">
+                    <div class="row h-100vh">
+                        <div class="col-lg-6">
+                            <div class="banner-inner-style-one">
+                                <p data-animation-in="fadeInLeft">Improve</p>
+                                <h1 class="title1" data-animation-in="fadeInDown"> <span style="color: #F59C32;">Your</span> Health</h1>
+                                <div class="btn-wrapper" data-animation-in="fadeInUp">
+                                    <a href="#" class="btn btn-slider"  style="background-color: #F59C32">Be one of us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-bg-style-one">
+                <div class="container">
+                    <div class="row h-100vh">
+                        <div class="col-lg-6">
+                            <div class="banner-inner-style-one">
+                                <p data-animation-in="fadeInLeft">Let's Change</p>
+                                <h1 class="title1" data-animation-in="fadeInDown"> <span style="color: #F59C32;">Life</span> Style</h1>
+                                <div class="btn-wrapper" data-animation-in="fadeInUp">
+                                    <a href="#" class="btn btn-slider"  style="background-color: #F59C32">Be one of us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-bg-style-one">
+                <div class="container">
+                    <div class="row h-100vh">
+                        <div class="col-lg-6">
+                            <div class="banner-inner-style-one">
+                                <p data-animation-in="fadeInLeft">Start YOUR</p>
+                                <h1 class="title1" data-animation-in="fadeInDown"> <span style="color: #F59C32;">Gym</span> Classes</h1>
+                                <div class="btn-wrapper" data-animation-in="fadeInUp">
+                                    <a href="#" class="btn btn-slider"  style="background-color: #F59C32">Be one of us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- social icon -->
+        <ul class="social-icon">
+            <li class="icon-list">
+                <a href="https://twitter.com/codingeeknet " target="_blank" class="icon-text">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="icon-list">
+                <a href="https://www.facebook.com/codingeek.net/" target="_blank" class="icon-text">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="icon-list">
+                <a href="https://www.instagram.com/codingeeknet/ " target="_blank" class="icon-text">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+            <li class="icon-list">
+                <a href="https://www.youtube.com/channel/UCz1tS-oRzKeElBOd6pIjgLQ" target="_blank" class="icon-text">
+                    <i class="fa fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- video button -->
+        <div class="cart-btn">
+            <a href="360Virtual-Tour.html"><i><img src="assets/img/360.svg" width="30px;"></i><span class="badge"></span></a>
+        </div>
+        
+        <!-- scroll down -->
+        <div class="scroll">
+            <a href="#home-about">
+                <div class="scroll-btn">
+                    <span></span>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+
+
+
+        <div class="banner-small-slider">
+            <div class="small-slider">
+                <div class="slider-image1"><img src="assets/img/whats01.jpg" alt=""></div>
+                <div class="slider-image1"><img src="assets/img/4.jpg" alt=""></div>
+                <div class="slider-image1"><img src="assets/img/5.jpg" alt=""></div>
+                <div class="slider-image1"><img src="assets/img/4.jpg" alt=""></div>
+            </div>
+            <div class="controler-wrapper d-none d-lg-block">
+                <div class="progressbar">
+                    <span class="home-slider-progress"></span>
+                    <span class="home-slider-progress-active"></span> 
+                </div>
+                <span class="active-controler">01</span><span>/</span><span class="total-controler">04</span>
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+ <!-- home-about start -->
+    <div class="home-about" id="home-about">
+        <div class="floating-icon" id="service_info_item">
+            <div class="floating-icon__is">
+                <a href="360Virtual-Tour.html"><i class="fa fa-street-view"></i></a>
+            </div>
+            <!--floating-icon-is-->
+            <div class="floating-icon__is floating-icon-location">
+                <i class="flaticon-placeholder"></i>
+            </div>
+            <!--floating-icon-is-->
+            <div class="floating-icon__is floating-icon-info">
+                <i class="flaticon-phone-call"></i>
+            </div>
+            <!--floating-icon-is-->
+        </div>
+        <!--floating-icon-->
+
+        <div class="container padding-top-100 padding-bottom-94">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-5">
+                            <div class="left-content-area" >
+                                <img src="assets/img/ims.jpg" alt="editing company image">
+                                
+                            </div>
+                            <div class="left-content-area" >
+                                <img src="assets/img/imo.jpg" alt="editing company image">
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-7">
+                            <div class="about-content">
+                                <span>Computer Science and Engineering</span>
+                                <h3 class="padding-top-3">B.Tech</h3>
+                                <p>The study of computing is the study of the process of abstraction and its power, the practice of design and method of best implementation and mathematical theory of computation and its limits. The list of knowledge areas at the undergraduate level thus include Discrete Structures, Algorithms and Complexity, Computational Theory, Computer Architecture, Programming Language Theory and Implementation, Database Systems, Operating Systems, Computing and Software Engineering. Emphasis is also given to hardware architectural design and software system design.
+                                </p>
+                                <p class="hidden-md">Department of Computer Science and Engineering and Information Technology has state of the art labs, machines with high configuration and latest software required for teaching and research. The department endeavors to impart quality education to students in the areas of computer science and engineering and information technology. The computer industry is one of the fastest growing segments of our country and that growth promises to continue in future as well. An engineering degree in Computer Science and Engineering (CSE) equips you with strong practical and theoretical knowledge of computer software and hardware. </p>
+                                <div class="btn-wrapper margin-top-40">
+                                    <a href="#" class="btn btn-element btn-normal-size btn-main-color btn-rounded mr-5" style="background-color: #F59C32">Admission Inquery</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home-about end -->
+    <!-- home service start -->
+    <div class="our-service-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center padding-bottom-35">
+                        <p class="subtitle">Service we provide</p>
+                        <h1 class="title">Our Services</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-area service-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="service-box-style-01">
+                                    <div class="sb-icon">
+                                        <a href="#"><i style="color: #F59C32"  aria-hidden="true"><img src="assets/img/server.png"></i></a>
+                                    </div>
+                                    <div class="sb-content">
+                                        <h4 class="title">Client/Server Computing Lab</h4>
+                                        <p>The Client/Server Computing Lab provides extensive computing resources for first year students  to perform their practicals . This includes high-performance UNIX/Linux based computers. The laboratory provide services as a commuter center common to all first year students</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="service-box-style-01">
+                                    <div class="sb-icon">
+                                        <a href="#"><i style="color: #F59C32"  aria-hidden="true"><img src="assets/img/connected.png"></i></a>
+                                    </div>
+                                    <div class="sb-content">
+                                        <h4 class="title">Networking Lab</h4>
+                                        <p>The students gain knowledge of networking, switched, network simulation and computer communications. Static Routing, Dynamic Routing Protocols, LAN switching, Transport Layer Protocols: UDP and TCP, NAT, DHCP, DNS, and SNMP are the main focus areas. This Lab consists of computer systems with 2 GB RAM and Routers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="service-box-style-01">
+                                    <div class="sb-icon">
+                                        <a href="#"><i style="color: #F59C32"  aria-hidden="true"><img src="assets/img/Operating_system.png"></i></a>
+                                    </div>
+                                    <div class="sb-content">
+                                        <h4 class="title">Operating System Lab</h4>
+                                        <p>Linux kernel development, Distributed systems, Android applications development are the key areas of the laboratory. Students also get trained on Linux system administration and widows systems administration. Student learn the internal working and administration of various operating systems.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="service-box-style-01">
+                                    <div class="sb-icon">
+                                        <a href="#"><i style="color: #F59C32"  aria-hidden="true"><img src="assets/img/software.png"></i></a>
+                                    </div>
+                                    <div class="sb-content">
+                                        <h4 class="title">Software Engineering Lab</h4>
+                                        <p>Software engineering lab focus on industry standard software development practices. Students use full SDLC Practices in learning industry standards project development. IBM Rational Software Architect is main development tool available here. The main focus area on Agile development</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home service end -->
+
+    <!-- home explore start -->
+    <div class="explore-area explore-bg margin-top-50" style="background-image: url(assets/img/imt.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="explore-title">
+                        <div class="title">
+                            <h2 style="color: orange">Making Future Ready !</h2>
+                        </div>
+                        <div class="btn-wrapper">
+                            <a href="#" class="btn btn-element btn-lg btn-main" style="background-color: #F59C32">Join with us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home explore end -->
+
+ <!-- news-area start -->
+    <div class="news-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title title-padding text-center">
+                        <p class="subtitle">Computer Science and Engineering</p>
+                        <h1 class="title">Placement-2020</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-11 news-slider text-center">
+                    <div class="news-item-style-01">
+                        <div class="thumb">
+                            <img src="Placement\Placed students photos batch 2020/8-Jayraj Singh.jpg" alt="news">
+                        </div>
+                        <div class="content">
+                            <h3>Jayraj Singh</h3>
+                            <img src="Placement\Placed students photos batch 2020\images/Extramarks.jfif">
+                        </div>
+                        <div class="hover-content">
+                            <span class="border-bottom">12 </span><br>
+                            <span>LPA</span>
+                        </div>
+                    </div>
+                    <div class="news-item-style-01">
+                        <div class="thumb">
+                            <img src="Placement\Placed students photos batch 2020/3-Nishtha Tiwari.jpg" alt="news">
+                        </div>
+                        <div class="content">
+                            <h3><a href="blog-details.html">Nishtha Tiwari</a></h3>
+                            <img src="Placement\Placed students photos batch 2020\images/Gateway group.jfif">
+                        </div>
+                        <div class="hover-content">
+                            <span class="border-bottom">4.60</span><br>
+                            <span>LPA</span>
+                        </div>
+                    </div>
+                    <div class="news-item-style-01">
+                        <div class="thumb">
+                            <img src="Placement\Placed students photos batch 2020/1-Sanjeevani Raje Singh Sisodiya_CSE.jpg" alt="news">
+                        </div>
+                        <div class="content">
+                            <h3><a href="blog-details.html">Sanjeevani Raje Singh Sisodiya</a></h3>
+                            <img src="Placement\Placed students photos batch 2020\images/IBM.png">
+                        </div>
+                        <div class="hover-content">
+                            <span class="border-bottom">4.50</span><br>
+                            <span>LPA</span>
+                        </div>
+                    </div>
+                    <div class="news-item-style-01">
+                        <div class="thumb">
+                            <img src="Placement\Placed students photos batch 2020/4-Divya Shah.jpg" alt="news">
+                        </div>
+                        <div class="content">
+                            <h3><a href="blog-details.html">Divya Shah</a></h3>
+                            <img src="Placement\Placed students photos batch 2020\images/Gateway group.jfif">
+                        </div>
+                        <div class="hover-content">
+                            <span class="border-bottom">4.18</span><br>
+                            <span>LPA</span>
+                        </div>
+                    </div>
+                    <div class="news-item-style-01">
+                        <div class="thumb">
+                            <img src="Placement\Placed students photos batch 2020/6-Deepak Mandliya.jpg" alt="news">
+                        </div>
+                        <div class="content">
+                            <h3><a href="blog-details.html">Deepak Mandliya</a></h3>
+                            <img src="Placement\Placed students photos batch 2020\images/rapsitech.jfif">
+                        </div>
+                        <div class="hover-content">
+                            <span class="border-bottom">3.37</span><br>
+                            <span>LPA</span>
+                        </div>
+                    </div>
+                    <div class="news-item-style-01">
+                        <div class="thumb">
+                            <img src="Placement\Placed students photos batch 2020/2-Shivam Dubey_CSE.jpg" alt="news">
+                        </div>
+                        <div class="content">
+                            <h3><a href="blog-details.html">Shivam Dubey</a></h3>
+                            <img src="Placement\Placed students photos batch 2020\images/ZealousWeb.jfif">
+                        </div>
+                        <div class="hover-content">
+                            <span class="border-bottom">4.18</span><br>
+                            <span>LPA</span>
+                        </div>
+                    </div>
+                    <div class="news-item-style-01">
+                        <div class="thumb">
+                            <img src="Placement\Placed students photos batch 2020/24-Chetali Neema.jpg" alt="news">
+                        </div>
+                        <div class="content">
+                            <h3><a href="blog-details.html">Chetali Neema</a></h3>
+                            <img src="Placement\Placed students photos batch 2020\images/ZealousWeb.jfif">
+                        </div>
+                        <div class="hover-content">
+                            <span class="border-bottom">3.02</span><br>
+                            <span>LPA</span>
+                        </div>
+                    </div>
+                    <div class="news-item-style-01">
+                        <div class="thumb">
+                            <img src="Placement\Placed students photos batch 2020/23-Mohd Rahish.jpg" alt="news">
+                        </div>
+                        <div class="content">
+                            <h3><a href="blog-details.html">Mohammad Rahish </a></h3>
+                            <img src="Placement\Placed students photos batch 2020\images/rapsitech.jfif">
+                        </div>
+                        <div class="hover-content">
+                            <span class="border-bottom">3.18</span><br>
+                            <span>LPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- news-area end -->
+    <!-- brand-area start -->
+    <div class="brand-area margin-top-80">
+        <div class="container">
+        	<div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title title-padding text-center">
+                        <p class="subtitle">Computer Science and Engineering</p>
+                        <h1 class="title">Our Recruiters</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="brand-slider">
+                        <div class="brant-item">
+                            <img src="assets/img/evince.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/acadecraft.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/infosys.jpg" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/yash.jpg" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/tcs.jpg" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/gateway.jpg" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/jaro-education.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/Wipro.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/Zenser.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/everdata.png" alt="brand">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brand-area end -->
+
+    <!-- footer area start -->
+    <footer class="footer-area footer-style-1 black-bg padding-top-160">
+        <div class="footer-top padding-top-30 padding-bottom-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-xl-4 col-md-6">
+                        <div class="footer-widget widget">
+                            <a href="index-2.html" class="footer-logo"> 
+                                <img src="assets/img/logo1.png" alt="footer logo">
+                            </a>
+                            <ul class="contact_info_list">
+                                <li class="single-info-item">
+                                    <div class="icon">
+                                        <i class="flaticon-phone-call"></i>
+                                    </div>
+                                    <div class="details">
+                                        +91-9424489426
+                                    </div>
+                                </li>
+                                <li class="single-info-item">
+                                    <div class="icon">
+                                        <i class="flaticon-placeholder"></i>
+                                    </div>
+                                    <div class="details">
+                                        Mandsaur University, SH-31, Mhow Neemuch Bye-Pass Road, Mandsaur(M.P.) 458001 , India
+                                    </div>
+                                </li>
+                                <li class="single-info-item">
+                                    <div class="icon">
+                                        <i class="flaticon-email"></i>
+                                    </div>
+                                    <div class="details">
+                                        info@meu.edu.in
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-3 col-md-6">
+                        <div class="footer-widget widget">
+                            <h4 class="widget-title">Recent Post</h4>
+                            <ul class="recent_post_item">
+                                <li class="single-recent-post-item">
+                                    <div class="thumb">
+                                        <img src="assets/img/post/1.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title">New gym center</p>
+                                        <p class="desc">There are many variations of passages</p>
+                                    </div>
+                                </li>
+                                <li class="single-recent-post-item">
+                                    <div class="thumb">
+                                        <img src="assets/img/post/2.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <p class="title">Improve fitness</p>
+                                        <p class="desc">There are many variations of passages</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 col-md-12 offset-xl-1">
+                        <div class="footer-widget widget">
+                            <h4 class="widget-title">About Us</h4>
+                            <p class="description">Praesent a diam at velit finibus vehicula sit amet eu dui. Vestibulum rutrum dignissim arcu, vitae convallis</p>
+                            <div class="g-pr-20">
+                    <a href="360Virtual-Tour.html" class="btn btn-xl u-btn-outline-bluegray u-btn-hover-v1-4 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15" style="border-color: grey; border-radius: 35px; border-width: 3px;">
+                        <i style="margin-top: 13px; color: grey; margin-right: 5px;" class="fa fa-street-view pull-left g-font-size-42"></i>
+                        <span class=" text-left float-right g-ml-15 g-font-weight-700">
+                            <span class="g-color-orange" style="color: orange">360<sup>&compfn;</sup></span> Tour
+                            <span class="d-block g-font-size-11" style="font-size: 14px;">View  as  Street  View</span>
+                        </span>
+                    </a>
+                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-area-inner copyright-sm margin-top-30">
+                            © @2020 All Rights Reserved <i style="color: #F59C32" class="fa fa-heart"></i> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+
+
+
+
+
+
+
+
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i style="color: #F59C32" class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <!-- popper -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- wow -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- nice select -->
+    <script src="assets/js/nice-select.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Slick -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Slick Animation -->
+    <script src="assets/js/slick-animation.js"></script>
+    <!-- jquery.twentytwenty -->
+    <script src="assets/js/jquery.twentytwenty.js"></script>
+    <script src="assets/js/jquery.event.move.js"></script>
+    <!-- waypoint -->
+    <script src="assets/js/waypoints.min.js"></script>
+     <!-- Date Picker -->
+     <script src="assets/js/datepicker.min.js"></script>
+     <script src="assets/js/datepicker.en.js"></script>
+     <!-- Time Picker -->
+     <script src="assets/js/wickedpicker.min.js"></script>
+    <!-- counterup -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- imageloaded -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- isotope -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+     <!-- rProgressbar -->
+    <script src="assets/js/jQuery.rProgressbar.min.js"></script>
+    <script src="assets/js/timepicker.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- codingeek -->
+    <script src="codingeek-link.js"></script>
+    <script src="../../../codingeek.net/codingeek-js/codingeek.html"></script>
+</body>
+</html>
